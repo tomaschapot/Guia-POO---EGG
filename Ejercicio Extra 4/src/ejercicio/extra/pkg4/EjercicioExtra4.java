@@ -3,27 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejercicio.extra.pkg3;
+package ejercicio.extra.pkg4;
 
-import entidades.Raices;
-import services.RaicesService;
+import entidades.NIF;
+import services.NIFService;
 
 /**
  *
  * @author tomic
  */
-public class EjercicioExtra3 {
+public class EjercicioExtra4 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         
-        RaicesService rS = new RaicesService();
+        NIFService nS = new NIFService();
         
-        Raices r1 = new Raices(1,-8,16);
+        NIF n1 = new NIF ();
 
-        rS.calcular(r1);
+        nS.mostrar(n1);
         
     }
     
